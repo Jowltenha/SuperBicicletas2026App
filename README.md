@@ -79,7 +79,6 @@ SuperBicicletas2026App/
 # ✨ Funcionalidades
 
 - Página Inicial
-- Página Quem Somos
 - Layout responsivo
 - Estrutura organizada com Razor Pages
 - Arquivos estáticos organizados
