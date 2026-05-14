@@ -14,6 +14,10 @@ public class SuperBikesServices
     {
         return _Bicicletas;
     }
+    public Bicicleta Obter(int id)
+    {
+        return _Bicicletas.Single(item => item.BikeId == id);
+    }
     private void CarregarListaInicial()
     {
         _Bicicletas = new List<Bicicleta>()
